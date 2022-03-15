@@ -1,0 +1,17 @@
+
+.column_header {
+  min-width: 100%;
+  min-height: 10%;
+  position: fixed;
+  background-color: rgb(236 236 237);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(236 236 237);
+  min-height: 100vh;
+}
+

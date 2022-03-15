@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\skillMatrix",
+    "\\skillMatrix\\Data",
+    "\\skillMatrix\\Data\\DataContext",
+    "\\skillMatrix\\Models",
+    "\\skillMatrix\\Repositories",
+    "\\skillMatrix\\Services"
+  ],
+  "SelectedNode": "\\skillMatrix\\Models\\Employee_Skill.cs",
+  "PreviewInSolutionExplorer": false
+}

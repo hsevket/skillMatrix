@@ -1,0 +1,45 @@
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 p-0"
+        [class.active]="show == true">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/">
+                <img class="logo" src="../../assets/images/skill_matrix.png" alt="">
+            </a>
+            <div class="hamburger" (click)="hamburgerToggle()">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="menu" [class.active]="show == true">">
+
+        <ul>
+            <li>
+                <a>TEAMS</a>
+
+            </li>
+            <li>
+                <a>CHARTS</a>
+            </li>
+            <li>
+                <a>CONTACT</a>
+            </li>
+            <li>
+                <a>ADMIN</a>
+            </li>
+
+            <hr class="solid">
+
+
+            <li>
+                <a>LOG OUT</a>
+            </li>
+        </ul>
+        <div>
+
+        </div>
+    </div>
+</header>

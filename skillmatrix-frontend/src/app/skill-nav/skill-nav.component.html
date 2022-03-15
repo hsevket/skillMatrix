@@ -1,0 +1,11 @@
+<div class="skillNavContainer">
+  <div class="cont" id="nav-tab" role="tablist">
+    
+    <button class="btn"
+    *ngFor="let button of categories"  
+    (click)="ChangeCategory(button.label)" 
+    [class.active]="CurrentCategory == button.label">
+    {{ button.label }}
+  </button>
+  </div>
+</div>

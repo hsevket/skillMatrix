@@ -1,0 +1,194 @@
+<div class="skillContainer">
+  <app-skill-nav></app-skill-nav>
+
+  <app-skill-display>
+    <div class="Information" *ngIf="CurrentCategory === 'Information'">
+      <h1>Personal</h1>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">E-mail</th>
+            <td>...@softwareone.com</td>
+          </tr>
+          <tr>
+            <th scope="row">Phone</th>
+            <td>888888888</td>
+          </tr>
+          <tr>
+            <th scope="row">Location</th>
+            <td>Leipzig</td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Job</h1>
+      <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">Position</th>
+            <td>Front-End Developer</td>
+          </tr>
+          <tr>
+            <th scope="row">Department</th>
+            <td>IT</td>
+          </tr>
+          <tr>
+            <th scope="row">Contract Type</th>
+            <td>Full-Time</td>
+          </tr>
+          <tr>
+            <th scope="row">Start Date</th>
+            <td>01/01/2020</td>
+          </tr>
+          <tr>
+            <th scope="row">End-Date</th>
+            <td>01/01/2022</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="Information skills" *ngIf="CurrentCategory === 'Tech Skills'">
+      <h3 class="progress-title">HTML5</h3>
+      <div class="progress-outer">
+        <div class="progress">
+          <div class="progress-bar" style="width: 50%"></div>
+          <div class="progress-value"><span>Intermediate</span></div>
+        </div>
+      </div>
+      <h3 class="progress-title">CSS3</h3>
+      <div class="progress-outer">
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%"></div>
+          <div class="progress-value"><span>Advanced</span></div>
+        </div>
+      </div>
+      <h3 class="progress-title">Java Script</h3>
+      <div class="progress-outer">
+        <div class="progress">
+          <div class="progress-bar" style="width: 100%"></div>
+          <div class="progress-value"><span>Expert</span></div>
+        </div>
+      </div>
+      <h3 class="progress-title">C#</h3>
+      <div class="progress-outer">
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%"></div>
+          <div class="progress-value"><span>Advanced</span></div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <div class="Information skills" *ngIf="CurrentCategory === 'Soft Skills'">
+        <h3 class="progress-title">Critical Thinking</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%"></div>
+            <div class="progress-value"><span>Intermediate</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">Team Working</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%"></div>
+            <div class="progress-value"><span>Advanced</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">Public Speaking</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 100%"></div>
+            <div class="progress-value"><span>Expert</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">Professional Writing</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%"></div>
+            <div class="progress-value"><span>Advanced</span></div>
+          </div>
+        </div>
+    </div>
+    <div class="Information skills" *ngIf="CurrentCategory === 'Language Skills'">
+        <h3 class="progress-title">English</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 100%"></div>
+            <div class="progress-value"><span>Native</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">German</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 75%"></div>
+            <div class="progress-value"><span>Advanced</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">Italian</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%"></div>
+            <div class="progress-value"><span>Intermediate</span></div>
+          </div>
+        </div>
+        <h3 class="progress-title">French</h3>
+        <div class="progress-outer">
+          <div class="progress">
+            <div class="progress-bar" style="width: 50%"></div>
+            <div class="progress-value"><span>Intermediate</span></div>
+          </div>
+        </div>
+    </div>
+    <div class="Information" *ngIf="CurrentCategory === 'Education'">
+        <h1>Education</h1>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                
+                <th scope="col">Instution</th>
+                <th scope="col">Department</th>
+                <th scope="col">Degree</th>
+                <th scope="col">Graduation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>University of Leipzig</td>
+                <td>Computer Science</td>
+                <td>Bachelor</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>Technical Univertiy of Munich</td>
+                <td>Computer Science</td>
+                <td>Master</td>
+                <td>2020</td>
+              </tr>
+            </tbody>
+          </table>
+          <h1>Certificates</h1>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                
+                <th scope="col">Instution</th>
+                <th scope="col">Subject</th>
+                <th scope="col">Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Microsoft</td>
+                <td>Azure Fundamentals</td>
+                <td>2021</td>
+              </tr>
+              <tr>
+                <td>Udemy</td>
+                <td>Angular Developer</td>
+                <td>2021</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+  </app-skill-display>
+</div>
